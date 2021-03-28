@@ -54,10 +54,13 @@
 
 
     <div class="bg-audio">
-        <audio id="mymusic" src="assets/audio/background-audio.mp3" preload autoplay loop>
-        <embed src="assets/audio/background-audio.mp3" width="180" height="90" hidden="true" />
+        <audio id="mymusic" src="assets/audio/background-audio.mp3" preload autoplay loop="">
         </audio>
-        
+
+        <!-- <i class="fa fa-play-circle-o"></i>
+        <i class="fa fa-pause-circle-o"></i> -->
+
+
     </div>
 
     </section>
@@ -83,7 +86,15 @@
     <script type="text/javascript">
     </script>
 
+    <script>
+        function playMusic() {
+            mymusic.play();
+        }
+    </script>
 
+
+
+</html>
 
 </body>
 
